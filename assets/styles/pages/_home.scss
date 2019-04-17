@@ -1,0 +1,176 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+#home{
+	#slider{
+		background: #0a3d67 url('assets/images/personal-bg.jpg') center center no-repeat;
+		background-size: 100% 200%;
+	}	
+}
+.color-white{
+	color: white;
+}
+
+#signup-form{
+	a {
+		color: #2bd9a6;
+		text-decoration: none;
+	}
+	padding: 60px 0;
+	background-color: #d8ecf8;
+	.h1{
+		margin-bottom: 60px;
+	}
+	.h2{
+		color: #2bd9a6;
+		margin-bottom: 30px;
+		font-size: 32px;
+	}
+	.mb60{
+		margin-bottom: 60px;
+	}
+}
+#bussines{
+	#slider{
+		background: #0a3d67 url('assets/images/bussines.jpg') top center no-repeat;
+		background-size: 100%;
+	}	
+	#how-it-work{
+		background-color: $dark-blue; 
+		padding: 80px 0;
+		h5, p{
+			color: white;
+		}
+		.big-icon{
+			position: relative;
+			width: 120px;
+			height: 120px;
+			border-radius: 60px;
+			border: 3px solid #6af0c9;
+			margin: 0px auto 30px auto;
+			.icon-badge{
+				position: absolute;
+				top:20px;
+				left: -10px;
+				font-size: 18px;
+				background: white;
+				width: 30px;
+				height: 30px;
+				border-radius: 15px;
+				line-height: 30px;
+				text-align: center;
+				color: $dark-blue;
+			}
+		}
+	}
+	#subscribe{
+		background: $dark-blue;
+		padding: 40px 0;
+		.email{
+			width: 280px;
+  			height: 60px;
+  			border-radius: 8px;
+  			background-color: #ffffff;
+  			margin-right: 20px;
+		}
+		.jumbotron{
+			text-align: left;
+			background: transparent;
+			border-radius: 0;
+			margin-bottom: 0;
+			padding: 20px 0;
+			&.divider{
+				border-left: 1px solid white;
+			}
+		}
+	}
+}
+#start{
+	padding: 80px 0;
+	background: #f4f4f4;
+	p:not(.h1){
+		font-size: 22px;
+	}
+}
+#slider{
+	.auth{
+		padding: 10px 0;
+		border-bottom: 1px solid white;
+		.buttons{
+			padding: 15px 0;
+		}
+		.logo{
+			display: block;
+			width: 180px;
+			img{
+				width: 100%;
+			}
+		}	
+	}
+	.jumbotron{
+		background: none;
+	    padding: 160px 0;
+    	margin: 0;
+		.head-caption{
+			color: white;
+			font-weight: 600;
+			font-size: 54px;
+			margin-bottom: 30px;
+		}
+		.sub-caption{
+			color: white;
+			margin-bottom: 60px;
+		}
+	}	
+}
+
+#how-it-work{
+	background-color: #6af0c9; 
+	padding: 80px 0;
+	.big-icon{
+		position: relative;
+		width: 120px;
+		height: 120px;
+		border-radius: 60px;
+		border: 3px solid $dark-blue;
+		margin: 0px auto 30px auto;
+		.icon-badge{
+			position: absolute;
+			top:20px;
+			left: -10px;
+			font-size: 18px;
+			background: white;
+			width: 30px;
+			height: 30px;
+			border-radius: 15px;
+			line-height: 30px;
+			text-align: center;
+		}
+	}
+	h6{
+		margin-bottom: 10px;
+	}
+}
+#solutions{
+	text-align: center;
+	background-color:#f4f4f4;
+	padding: 80px 0;
+}
+#why{
+	padding: 80px 0;
+}
+#payments{
+	padding: 80px 0;
+	background-color:#f4f4f4;
+}
+.payment-list{
+	padding: 0;
+	margin: 0 auto;
+	li{
+		width: 100px;
+		text-align: center;
+		display: inline-block;
+		margin: 0 20px;
+	}
+}

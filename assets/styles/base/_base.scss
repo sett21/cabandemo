@@ -1,0 +1,149 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*, *::before, *::after {
+  box-sizing: inherit;
+} 
+
+/**
+ * Basic styles for links
+ */
+a {
+  color: #6af0c9;
+  text-decoration: none;
+}
+
+
+img{
+	max-width: 100%;
+	margin: 8px 0;
+}
+input.form-control{
+	border: 0;
+	height: 50px;
+	line-height: 50px;
+}
+.btn-lg{
+	padding: .8rem 5rem;
+	font-weight: bold;
+	border-radius: 40px;
+	margin-top: 40px;
+}
+.btn-sm{
+	padding: .1rem 1rem;
+	font-weight: normal;
+	border-radius: 30px;
+	min-width: 100px;
+	font-weight: 600;
+	font-size: 12px;
+}
+.btn-info{
+	background: transparent;
+	border-color: #6af0c9;
+	color: #6af0c9;
+	&:hover{
+		background: white;
+		color: $dark-grey;
+	}
+}
+.btn-success{
+	background: #6af0c9;
+	border-color: #6af0c9;
+	color: $dark-grey;
+	&:hover{
+		background: white;
+		color: $dark-grey;
+	}
+}
+.btn-secondary{
+	background: white;
+	border-color: white;
+	color: $dark-blue;
+	&:hover{
+		background: $dark-blue;
+		color: white;
+	}	
+}
+.color-info{
+	color: #8194a4;
+	font-size: 12px;
+}
+
+.checkbox label:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.label-text{
+	padding-left: 30px;
+	display: block;
+}
+
+.checkbox .cr {
+  position: relative;
+  display: inline-block;
+  border: none;
+  background: white;
+  border-radius: .25em;
+  width: 1.3em;
+  height: 1.3em;
+  float: left;
+  margin-right: .5em;
+}
+
+.checkbox .cr .cr-icon {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top:4px;
+  left: 4px;
+  line-height: 0;
+  background: #2bd9a6;
+  border-radius: 3px;
+}
+
+.checkbox label input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox label input[type="checkbox"]+.cr>.cr-icon {
+  opacity: 0;
+}
+
+.checkbox label input[type="checkbox"]:checked+.cr>.cr-icon {
+  opacity: 1;
+}
+
+#signup{
+	header{
+		.auth {
+			padding: 10px 0;
+			border-bottom: 1px solid white;
+			.buttons{
+				margin: 13px 0;
+			}
+			.logo{
+				display: block;
+				width: 160px;
+				img{
+					width: 100%;
+				}
+			}	
+		}
+	}
+}

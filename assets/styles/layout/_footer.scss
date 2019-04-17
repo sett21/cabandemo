@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+footer{
+	.logo{
+		display: block;
+		width: 120px;
+		margin-bottom: 20px;
+		img{
+			width: 100%;
+		}
+	}
+	padding: 40px 0;
+	background-color: #edfffa;
+}
