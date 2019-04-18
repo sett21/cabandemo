@@ -2828,6 +2828,8 @@ footer .logo img {
   border-radius: 60px;
   border: 3px solid #6af0c9;
   margin: 0px auto 30px auto;
+  box-sizing: boreder-box;
+  padding: 14px 22px;
 }
 #bussines #how-it-work .big-icon .icon-badge {
   position: absolute;
@@ -2913,6 +2915,8 @@ footer .logo img {
   border-radius: 60px;
   border: 3px solid #0a3d67;
   margin: 0px auto 30px auto;
+  box-sizing: boreder-box;
+  padding: 14px 22px;
 }
 #how-it-work .big-icon .icon-badge {
   position: absolute;

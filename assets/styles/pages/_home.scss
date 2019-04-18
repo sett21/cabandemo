@@ -49,6 +49,8 @@
 			border-radius: 60px;
 			border: 3px solid #6af0c9;
 			margin: 0px auto 30px auto;
+			box-sizing: boreder-box;
+		    padding: 14px 22px;
 			.icon-badge{
 				position: absolute;
 				top:20px;
@@ -135,6 +137,8 @@
 		border-radius: 60px;
 		border: 3px solid $dark-blue;
 		margin: 0px auto 30px auto;
+		box-sizing: boreder-box;
+	    padding: 14px 22px;
 		.icon-badge{
 			position: absolute;
 			top:20px;
