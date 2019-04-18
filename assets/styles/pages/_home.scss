@@ -37,7 +37,7 @@
 		background-size: 100%;
 	}	
 	#how-it-work{
-		background-color: $dark-blue; 
+		background: $dark-blue; 
 		padding: 80px 0;
 		h5, p{
 			color: white;
@@ -128,7 +128,7 @@
 }
 
 #how-it-work{
-	background-color: #6af0c9; 
+	background: url('assets/images/bg2.jpg') center center;
 	padding: 80px 0;
 	.big-icon{
 		position: relative;

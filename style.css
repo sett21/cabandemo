@@ -2815,7 +2815,7 @@ footer .logo img {
   background-size: 100%;
 }
 #bussines #how-it-work {
-  background-color: #0a3d67;
+  background: #0a3d67;
   padding: 80px 0;
 }
 #bussines #how-it-work h5, #bussines #how-it-work p {
@@ -2905,7 +2905,7 @@ footer .logo img {
 }
 
 #how-it-work {
-  background-color: #6af0c9;
+  background: url("assets/images/bg2.jpg") center center;
   padding: 80px 0;
 }
 #how-it-work .big-icon {
