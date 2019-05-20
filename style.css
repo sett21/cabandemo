@@ -2959,7 +2959,13 @@ footer .logo img {
   display: inline-block;
   margin: 0 20px;
 }
-
+#text-page{
+  padding: 60px 0;
+}
+#text-page h3{
+  padding: 30px 0 20px 0;
+}
+ul li { color: #0a3d67; }
 /**
  * ---------------------------------------------------
  * 	5.  Themes
